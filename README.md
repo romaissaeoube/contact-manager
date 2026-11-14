@@ -1,79 +1,53 @@
-# 🛍️ React Product Store
+# Contact Manager
 
-A simple and responsive online store application built with React.js and Bootstrap 5.
+## Description
+Contact Manager est une application web développée avec React et Bootstrap. Elle permet de gérer facilement une liste de contacts à travers une interface simple et intuitive.
 
-## 📌 About The Project
+## Fonctionnalités
 
-This project is a product store that allows users to browse different products, view product details, and contact the store.
+- Afficher la liste des contacts.
+- Ajouter un nouveau contact.
+- Modifier les informations d'un contact.
+- Supprimer un contact.
+- Naviguer entre les différentes pages.
 
-Products are fetched dynamically from the DummyJSON API using Axios.
-
-## ✨ Features
-
-- 🏠 Home Page
-- 🛒 Products Page
-- 🔍 View Product Details
-- 📩 Contact Page
-- 📱 Responsive Design
-- 🌐 Dynamic Data Fetching from API
-
-## 🛠️ Technologies Used
+## Technologies utilisées
 
 - React.js
 - JavaScript
 - Bootstrap 5
-- Axios
 - React Router DOM
-- HTML5
 - CSS3
-- DummyJSON API
+- HTML5
 
-## 📷 Pages
+## Installation
 
-### Home Page
-Welcome page with a link to explore products.
-
-### Products Page
-Displays a collection of products fetched from the API.
-
-### Product Details Page
-Shows product information such as title, description, price, category, brand, and stock.
-
-### Contact Page
-Contains a contact form for users.
-
-## ⚙️ Installation
-
-1. Clone the repository:
+1. Cloner le projet :
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/TON-USERNAME/contact-manager-react.git
 ```
 
-2. Navigate to the project folder:
+2. Accéder au dossier :
 
 ```bash
-cd React-Product-Store
+cd contact-manager-react
 ```
 
-3. Install dependencies:
+3. Installer les dépendances :
 
 ```bash
 npm install
 ```
 
-4. Start the development server:
+4. Lancer le projet :
 
 ```bash
 npm run dev
 ```
 
-## 🔗 API
+*Si le projet utilise Create React App, utiliser `npm start` à la place.*
 
-This project uses the DummyJSON API:
+## Licence
 
-https://dummyjson.com/products
-
-## 📄 License
-
-This project is created for educational purposes.
+Ce projet est réalisé dans un cadre pédagogique.
